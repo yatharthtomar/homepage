@@ -1,0 +1,173 @@
+1   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/start/jquery-ui.css">
+    <style>
+    
+    body{
+
+        background-color:#00120b;
+    }
+    #canva{
+
+        height: 700px;
+        width: 1000;
+    }
+
+    #paint{
+
+       border: 2px solid #ffe473;
+       cursor: crosshair; 
+    }
+
+    </style>
+</head>
+<body>
+    
+
+    <div id="canva">
+    <canvas id = "paint" width="1200px" height="700px"> </canvas>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script>
+    $(function(){
+    var canvas = document.getElementById("paint");
+
+    var context = canvas.getContext('2d');
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(504, 197, 4, 0, 2 * Math.PI); 
+    context.moveTo(500,200);
+    context.lineTo(430,280);
+    context.lineTo(470,310);
+    context.lineTo(506,270);
+    context.stroke();
+
+
+    context.beginPath();
+    context.arc(509, 266, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+ 
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(544, 197, 4, 0, 2 * Math.PI); 
+    context.moveTo(547,200);
+    context.lineTo(585,240);
+    context.lineTo(555,270);
+    context.lineTo(618,330);
+    context.lineTo(653,300);
+    context.lineTo(693,340);
+    context.lineTo(615,410);
+    context.lineTo(525,325);
+    context.lineTo(544,304);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(547, 301, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(578, 312, 4, 0, 2 * Math.PI); 
+    context.moveTo(576,310);
+    context.lineTo(534,270);
+    context.lineTo(470,342);
+    context.lineTo(415,300);
+    context.lineTo(340,390);
+    context.lineTo(380,420);
+    context.lineTo(430,360);
+    context.lineTo(450,360);
+    context.lineTo(450,480);
+    context.stroke();
+    
+    context.beginPath();
+    context.arc(450, 483, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(232, 496, 4, 0, 2 * Math.PI); 
+    context.moveTo(234,494);
+    context.lineTo(325,405);
+    context.lineTo(400,460);
+    context.lineTo(400,500);
+    context.lineTo(500,500);
+    context.lineTo(500,420);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(500, 417, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(206, 532, 4, 0, 2 * Math.PI); 
+    context.moveTo(211,533);
+    context.lineTo(314,533);
+    context.lineTo(314,453);
+    context.lineTo(364,453);
+    context.lineTo(364,533);
+    context.lineTo(520,533);
+    context.lineTo(520,433);
+    context.lineTo(580,433);
+    context.lineTo(580,493);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(580, 495, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(550, 460, 4, 0, 2 * Math.PI); 
+    context.moveTo(550,465);
+    context.lineTo(550,533);
+    context.lineTo(620,533);
+    context.lineTo(620,453);
+    context.lineTo(700,383);
+    context.lineTo(730,413);
+    context.lineTo(660,473);
+    context.lineTo(660,529);
+    context.stroke();
+
+    context.beginPath();
+    context.arc(660, 533, 4, 0, 2 * Math.PI);
+    context.lineWidth = 2;
+    context.stroke();
+
+
+    context.beginPath();
+    context.lineWidth = 2;
+    context.strokeStyle = '#ffe473';
+    context.arc(700, 500, 4, 0, 2 * Math.PI); 
+    context.moveTo(705,500);
+    context.lineTo(740,500);
+;
+    context.stroke();
+
+    });
+    </script>
+   
+</body>
+</html>
